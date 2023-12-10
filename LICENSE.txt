@@ -1,0 +1,10 @@
+The code is licensed under LGPL-2.1-or-later: https://spdx.org/licenses/LGPL-2.1-or-later.html
+
+The art is licensed under CC-BY-SA-3.0: https://spdx.org/licenses/CC-BY-SA-3.0.html
+
+BlockMen (CC BY-SA 3.0):
+default_lava_source_animated.png
+default_lava_flowing_animated.png
+
+I could not find information about the original default_lava.png,
+but I will assume it was also created by BlockMen and licensed the same as the other files.
