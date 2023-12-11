@@ -31,6 +31,7 @@ minetest.register_node("liquid_mercury:mercury_source", {
 		},
 	},
 	use_texture_alpha = "blend",
+	paramtype = "light",
 	walkable = false,
 	pointable = false,
 	diggable = false,
@@ -43,6 +44,8 @@ minetest.register_node("liquid_mercury:mercury_source", {
 	liquid_alternative_source = "liquid_mercury:mercury_source",
 	liquid_viscosity = 2,
 	liquid_range = 3,
+	liquid_renewable = false,
+	post_effect_color = {a = 250, r = 0, g = 0, b = 0},
 	groups = {liquid = 3, cools_lava = 1},
 	sounds = default.node_sound_water_defaults(),
 })
@@ -76,6 +79,7 @@ minetest.register_node("liquid_mercury:mercury_flowing", {
 	},
 	paramtype2 = "flowingliquid",
 	use_texture_alpha = "blend",
+	paramtype = "light",
 	walkable = false,
 	pointable = false,
 	diggable = false,
@@ -88,6 +92,8 @@ minetest.register_node("liquid_mercury:mercury_flowing", {
 	liquid_alternative_source = "liquid_mercury:mercury_source",
 	liquid_viscosity = 2,
 	liquid_range = 3,
+	liquid_renewable = false,
+	post_effect_color = {a = 250, r = 0, g = 0, b = 0},
 	groups = {liquid = 3, not_in_creative_inventory = 1, cools_lava = 1},
 	sounds = default.node_sound_water_defaults(),
 })
